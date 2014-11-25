@@ -4,4 +4,5 @@ node_js:
   - 0.10
   - 0.9
 before_script:
+  - npm cache clean
   - npm install -g npm
