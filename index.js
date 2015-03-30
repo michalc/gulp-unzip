@@ -1,6 +1,6 @@
 var through = require('through2');
 var gutil = require('gulp-util')
-var unzip = require('unzip')
+var unzip = require('unzip2')
 var fs = require('fs')
 var defaults = require('defaults')
 

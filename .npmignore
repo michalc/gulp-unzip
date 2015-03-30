@@ -5,3 +5,5 @@ gulpfile.js
 .gitignore
 .travis.yml
 README.md
+*.log
+.eslintignore
