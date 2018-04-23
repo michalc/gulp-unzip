@@ -19,7 +19,7 @@ module.exports = function(options){
 
     // unzip file
     var self = this
-    file.pipe(unzip.Parse())
+    file.contents.pipe(unzip.Parse())
       .on('entry', function(entry){
         var chunks = []
         if(!opts.filter(entry)){

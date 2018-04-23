@@ -13,7 +13,7 @@ function createVinyl(filename, contents) {
     cwd: __dirname,
     base: base,
     path: filePath,
-    contents: contents || fs.readFileSync(filePath)
+    contents: contents || fs.createReadStream(filePath)
   });
 }
 
